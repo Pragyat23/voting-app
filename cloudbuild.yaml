@@ -3,5 +3,5 @@ steps:
 - name: 'gcr.io/cloud-builders/kubectl'
   args: ['apply', '-f', 'k8/']
   env:
-  - 'CLOUDSDK_COMPUTE_ZONE=us-central1-a'
-  - 'CLOUDSDK_CONTAINER_CLUSTER=voting-app'
+  - 'CLOUDSDK_COMPUTE_ZONE=ap-south-1b'
+  - 'CLOUDSDK_CONTAINER_CLUSTER=ecs-stack-1-ECSCluster-E0VZ40825K6F'
